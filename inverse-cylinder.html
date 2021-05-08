@@ -20,11 +20,11 @@
                     document.body.appendChild( renderer.domElement );
 
                     var material = new THREE.MeshBasicMaterial( { 
-                                map: THREE.ImageUtils.loadTexture('./diotima.jpg')
+                                map: THREE.ImageUtils.loadTexture('./img/diotima-full.jpg')
                     } );
-                    var geometry = new THREE.CylinderGeometry( 8, 8, 20, 32 );
-
-                    //var geometry = new THREE.SphereGeometry( 100, 20, 20 );
+                    
+                    //Tuple is (bottom_radius, top_radius, height, radial_segment_count)
+                    var geometry = new THREE.CylinderGeometry( 8, 8, 30, 32 );
 
                     var cylinder = new THREE.Mesh( geometry, material );
                     scene.add( cylinder );
