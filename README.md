@@ -9,4 +9,6 @@ The internet does not have a viewer for such panoramas. So I made one.
 
 # Usage
 - Start a server with `python3 -m http.server 8000`. 
+- Optionally change the image path within `inverse-capsule.html`
 - Navigate to `localhost:8000/inverse-capsule.html` to use the capsule viewer.
+- Tune the properties using controls to your liking
