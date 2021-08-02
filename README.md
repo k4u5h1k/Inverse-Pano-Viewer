@@ -8,6 +8,8 @@ The internet does not have a viewer for such panoramas.
          
 ![Screenshot_2021-05-08_at_12 40 22_PM](https://user-images.githubusercontent.com/59250093/117531241-468b7d00-afff-11eb-8a08-9e8fa520b9b7.png)
 
+Hosted at https://k4u5h1k.github.io/Inverse-Pano-Viewer/.  
+
 # Usage
 - Start a server with `python3 -m http.server 8000`. 
 - Optionally change the image path within `inverse-capsule.html`
